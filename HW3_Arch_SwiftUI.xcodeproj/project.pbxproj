@@ -3,23 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A527865623AE33AB0008BB18 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864423AE33AB0008BB18 /* APIHelper.swift */; };
+		A527865723AE33AB0008BB18 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864523AE33AB0008BB18 /* AlamofireImplementations.swift */; };
+		A527865823AE33AB0008BB18 /* SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864723AE33AB0008BB18 /* SearchAPI.swift */; };
+		A527865923AE33AB0008BB18 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864823AE33AB0008BB18 /* CodableHelper.swift */; };
+		A527865A23AE33AB0008BB18 /* JSONEncodableEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864923AE33AB0008BB18 /* JSONEncodableEncoding.swift */; };
+		A527865B23AE33AB0008BB18 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864A23AE33AB0008BB18 /* APIs.swift */; };
+		A527865C23AE33AB0008BB18 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864B23AE33AB0008BB18 /* GithubAPI.swift */; };
+		A527865D23AE33AB0008BB18 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864D23AE33AB0008BB18 /* Order.swift */; };
+		A527865E23AE33AB0008BB18 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864E23AE33AB0008BB18 /* User.swift */; };
+		A527865F23AE33AB0008BB18 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864F23AE33AB0008BB18 /* Repository.swift */; };
+		A527866023AE33AB0008BB18 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527865023AE33AB0008BB18 /* ErrorModel.swift */; };
+		A527866123AE33AB0008BB18 /* RepositoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527865123AE33AB0008BB18 /* RepositoryList.swift */; };
+		A527866223AE33AB0008BB18 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527865223AE33AB0008BB18 /* Extensions.swift */; };
+		A527866323AE33AB0008BB18 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527865323AE33AB0008BB18 /* JSONEncodingHelper.swift */; };
+		A527866423AE33AB0008BB18 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527865423AE33AB0008BB18 /* Models.swift */; };
+		A527866523AE33AB0008BB18 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527865523AE33AB0008BB18 /* Configuration.swift */; };
+		A527866823AE36240008BB18 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = A527866723AE36240008BB18 /* SwiftUICharts */; };
+		A527866A23AE38E50008BB18 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527866923AE38E50008BB18 /* ActivityIndicatorView.swift */; };
+		A5AB84E423AE11BA00165643 /* GitHubRepoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AB84E323AE11BA00165643 /* GitHubRepoListViewModel.swift */; };
+		A5AB84EA23AE1E4100165643 /* GithubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AB84E923AE1E4100165643 /* GithubView.swift */; };
 		A5CA895023AD1E960087E30F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA894F23AD1E960087E30F /* AppDelegate.swift */; };
 		A5CA895223AD1E980087E30F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA895123AD1E980087E30F /* SceneDelegate.swift */; };
-		A5CA895423AD1E980087E30F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA895323AD1E980087E30F /* ContentView.swift */; };
+		A5CA895423AD1E980087E30F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA895323AD1E980087E30F /* RootView.swift */; };
 		A5CA895623AD1E9B0087E30F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CA895523AD1E9B0087E30F /* Assets.xcassets */; };
 		A5CA895923AD1E9B0087E30F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CA895823AD1E9B0087E30F /* Preview Assets.xcassets */; };
 		A5CA895C23AD1E9B0087E30F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CA895A23AD1E9B0087E30F /* LaunchScreen.storyboard */; };
+		A5CA896623AE0DF00087E30F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A5CA896523AE0DF00087E30F /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A5CA894C23AD1E950087E30F /* HW3_Arch_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3_Arch_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A527864423AE33AB0008BB18 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		A527864523AE33AB0008BB18 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
+		A527864723AE33AB0008BB18 /* SearchAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAPI.swift; sourceTree = "<group>"; };
+		A527864823AE33AB0008BB18 /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
+		A527864923AE33AB0008BB18 /* JSONEncodableEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodableEncoding.swift; sourceTree = "<group>"; };
+		A527864A23AE33AB0008BB18 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		A527864B23AE33AB0008BB18 /* GithubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
+		A527864D23AE33AB0008BB18 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		A527864E23AE33AB0008BB18 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A527864F23AE33AB0008BB18 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		A527865023AE33AB0008BB18 /* ErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		A527865123AE33AB0008BB18 /* RepositoryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryList.swift; sourceTree = "<group>"; };
+		A527865223AE33AB0008BB18 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A527865323AE33AB0008BB18 /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodingHelper.swift; sourceTree = "<group>"; };
+		A527865423AE33AB0008BB18 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A527865523AE33AB0008BB18 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		A527866923AE38E50008BB18 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		A5AB84E323AE11BA00165643 /* GitHubRepoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepoListViewModel.swift; sourceTree = "<group>"; };
+		A5AB84E923AE1E4100165643 /* GithubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubView.swift; sourceTree = "<group>"; };
+		A5CA894C23AD1E950087E30F /* HW3_Arch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3_Arch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CA894F23AD1E960087E30F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5CA895123AD1E980087E30F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5CA895323AD1E980087E30F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5CA895323AD1E980087E30F /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		A5CA895523AD1E9B0087E30F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5CA895823AD1E9B0087E30F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5CA895B23AD1E9B0087E30F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,24 +71,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5CA896623AE0DF00087E30F /* Alamofire in Frameworks */,
+				A527866823AE36240008BB18 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A527864323AE33AB0008BB18 /* GithubAPI */ = {
+			isa = PBXGroup;
+			children = (
+				A527864423AE33AB0008BB18 /* APIHelper.swift */,
+				A527864523AE33AB0008BB18 /* AlamofireImplementations.swift */,
+				A527864623AE33AB0008BB18 /* APIs */,
+				A527864823AE33AB0008BB18 /* CodableHelper.swift */,
+				A527864923AE33AB0008BB18 /* JSONEncodableEncoding.swift */,
+				A527864A23AE33AB0008BB18 /* APIs.swift */,
+				A527864B23AE33AB0008BB18 /* GithubAPI.swift */,
+				A527864C23AE33AB0008BB18 /* Models */,
+				A527865223AE33AB0008BB18 /* Extensions.swift */,
+				A527865323AE33AB0008BB18 /* JSONEncodingHelper.swift */,
+				A527865423AE33AB0008BB18 /* Models.swift */,
+				A527865523AE33AB0008BB18 /* Configuration.swift */,
+			);
+			name = GithubAPI;
+			path = GithubAPI/Sources/GithubAPI;
+			sourceTree = SOURCE_ROOT;
+		};
+		A527864623AE33AB0008BB18 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				A527864723AE33AB0008BB18 /* SearchAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		A527864C23AE33AB0008BB18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A527864D23AE33AB0008BB18 /* Order.swift */,
+				A527864E23AE33AB0008BB18 /* User.swift */,
+				A527864F23AE33AB0008BB18 /* Repository.swift */,
+				A527865023AE33AB0008BB18 /* ErrorModel.swift */,
+				A527865123AE33AB0008BB18 /* RepositoryList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5AB84E223AE112100165643 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5AB84E323AE11BA00165643 /* GitHubRepoListViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5AB84E623AE16CA00165643 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A5CA894323AD1E940087E30F = {
 			isa = PBXGroup;
 			children = (
 				A5CA894E23AD1E950087E30F /* HW3_Arch_SwiftUI */,
 				A5CA894D23AD1E950087E30F /* Products */,
+				A5AB84E623AE16CA00165643 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A5CA894D23AD1E950087E30F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5CA894C23AD1E950087E30F /* HW3_Arch_SwiftUI.app */,
+				A5CA894C23AD1E950087E30F /* HW3_Arch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,12 +154,16 @@
 		A5CA894E23AD1E950087E30F /* HW3_Arch_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A527864323AE33AB0008BB18 /* GithubAPI */,
+				A5AB84E223AE112100165643 /* Models */,
 				A5CA894F23AD1E960087E30F /* AppDelegate.swift */,
 				A5CA895123AD1E980087E30F /* SceneDelegate.swift */,
-				A5CA895323AD1E980087E30F /* ContentView.swift */,
-				A5CA895523AD1E9B0087E30F /* Assets.xcassets */,
+				A5CA895323AD1E980087E30F /* RootView.swift */,
+				A5AB84E923AE1E4100165643 /* GithubView.swift */,
+				A527866923AE38E50008BB18 /* ActivityIndicatorView.swift */,
 				A5CA895A23AD1E9B0087E30F /* LaunchScreen.storyboard */,
 				A5CA895D23AD1E9B0087E30F /* Info.plist */,
+				A5CA895523AD1E9B0087E30F /* Assets.xcassets */,
 				A5CA895723AD1E9B0087E30F /* Preview Content */,
 			);
 			path = HW3_Arch_SwiftUI;
@@ -91,8 +193,12 @@
 			dependencies = (
 			);
 			name = HW3_Arch_SwiftUI;
+			packageProductDependencies = (
+				A5CA896523AE0DF00087E30F /* Alamofire */,
+				A527866723AE36240008BB18 /* SwiftUICharts */,
+			);
 			productName = HW3_Arch_SwiftUI;
-			productReference = A5CA894C23AD1E950087E30F /* HW3_Arch_SwiftUI.app */;
+			productReference = A5CA894C23AD1E950087E30F /* HW3_Arch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,6 +225,10 @@
 				Base,
 			);
 			mainGroup = A5CA894323AD1E940087E30F;
+			packageReferences = (
+				A5CA896423AE0DF00087E30F /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A527866623AE36240008BB18 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = A5CA894D23AD1E950087E30F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,9 +256,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A527865A23AE33AB0008BB18 /* JSONEncodableEncoding.swift in Sources */,
+				A527866223AE33AB0008BB18 /* Extensions.swift in Sources */,
+				A527865623AE33AB0008BB18 /* APIHelper.swift in Sources */,
+				A527865F23AE33AB0008BB18 /* Repository.swift in Sources */,
+				A527865723AE33AB0008BB18 /* AlamofireImplementations.swift in Sources */,
+				A527865823AE33AB0008BB18 /* SearchAPI.swift in Sources */,
+				A5AB84EA23AE1E4100165643 /* GithubView.swift in Sources */,
+				A527866123AE33AB0008BB18 /* RepositoryList.swift in Sources */,
+				A527866023AE33AB0008BB18 /* ErrorModel.swift in Sources */,
+				A527866523AE33AB0008BB18 /* Configuration.swift in Sources */,
+				A527865B23AE33AB0008BB18 /* APIs.swift in Sources */,
+				A527865E23AE33AB0008BB18 /* User.swift in Sources */,
 				A5CA895023AD1E960087E30F /* AppDelegate.swift in Sources */,
+				A527865C23AE33AB0008BB18 /* GithubAPI.swift in Sources */,
+				A5AB84E423AE11BA00165643 /* GitHubRepoListViewModel.swift in Sources */,
 				A5CA895223AD1E980087E30F /* SceneDelegate.swift in Sources */,
-				A5CA895423AD1E980087E30F /* ContentView.swift in Sources */,
+				A527865D23AE33AB0008BB18 /* Order.swift in Sources */,
+				A527866A23AE38E50008BB18 /* ActivityIndicatorView.swift in Sources */,
+				A527866323AE33AB0008BB18 /* JSONEncodingHelper.swift in Sources */,
+				A527865923AE33AB0008BB18 /* CodableHelper.swift in Sources */,
+				A5CA895423AD1E980087E30F /* RootView.swift in Sources */,
+				A527866423AE33AB0008BB18 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +423,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digt.HW3-Arch-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HW3_Arch;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,7 +443,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digt.HW3-Arch-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HW3_Arch;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -342,6 +471,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A527866623AE36240008BB18 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.2;
+			};
+		};
+		A5CA896423AE0DF00087E30F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A527866723AE36240008BB18 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A527866623AE36240008BB18 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		A5CA896523AE0DF00087E30F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5CA896423AE0DF00087E30F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A5CA894423AD1E950087E30F /* Project object */;
 }
