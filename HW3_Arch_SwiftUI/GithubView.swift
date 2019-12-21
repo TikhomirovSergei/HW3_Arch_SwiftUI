@@ -14,22 +14,29 @@ struct GithubView: View {
     @EnvironmentObject var githubRepoListVM: GitHubRepoListViewModel
     
     var body: some View {
-        VStack {
-            if githubRepoListVM.loading {
-                ActivityIndicatorView()
-            } else {
-                PieChartView(data: [
-                    githubRepoListVM.swiftRepoCount,
-                    githubRepoListVM.objCRepoCount,
-                    githubRepoListVM.kotlinRepoCount
-                    ],
-                    title: "Number of repositories"
-                )
-                Text("swift repositories: \(githubRepoListVM.swiftRepoCount)")
-                Text("objC repositories: \(githubRepoListVM.objCRepoCount)")
-                Text("kotlin repositories: \(githubRepoListVM.kotlinRepoCount)")
+        VStack(alignment: .center) {
+            Spacer()
+            HStack() {
+                Spacer()
+                if githubRepoListVM.loading {
+                    ActivityIndicatorView()
+                } else {
+                    VStack() {
+                        PieChartView(data: [
+                            githubRepoListVM.swiftRepoCount,
+                            githubRepoListVM.objCRepoCount,
+                            githubRepoListVM.kotlinRepoCount
+                            ],
+                            title: "Number of repositories"
+                        )
+                        Text("swift: \(githubRepoListVM.swiftRepoCount)")
+                        Text("objC: \(githubRepoListVM.objCRepoCount)")
+                        Text("kotlin: \(githubRepoListVM.kotlinRepoCount)")
+                    }
+                }
+                Spacer()
             }
+            Spacer()
         }
-        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 60)
     }
 }

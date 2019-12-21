@@ -25,6 +25,18 @@
 		A527866523AE33AB0008BB18 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527865523AE33AB0008BB18 /* Configuration.swift */; };
 		A527866823AE36240008BB18 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = A527866723AE36240008BB18 /* SwiftUICharts */; };
 		A527866A23AE38E50008BB18 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527866923AE38E50008BB18 /* ActivityIndicatorView.swift */; };
+		A527869123AE43CF0008BB18 /* StatusAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527868023AE43CF0008BB18 /* StatusAPI.swift */; };
+		A527869523AE43CF0008BB18 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527868523AE43CF0008BB18 /* Person.swift */; };
+		A527869623AE43CF0008BB18 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527868623AE43CF0008BB18 /* Info.swift */; };
+		A527869723AE43CF0008BB18 /* PersonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527868723AE43CF0008BB18 /* PersonList.swift */; };
+		A527869823AE43CF0008BB18 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527868823AE43CF0008BB18 /* Status.swift */; };
+		A527869923AE43CF0008BB18 /* OriginLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527868923AE43CF0008BB18 /* OriginLocation.swift */; };
+		A52786A023AE45B50008BB18 /* AlamofireImplementationsForRAM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527869F23AE45B50008BB18 /* AlamofireImplementationsForRAM.swift */; };
+		A52786A223AE45CB0008BB18 /* RAMAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52786A123AE45CB0008BB18 /* RAMAPIs.swift */; };
+		A52786A423AE467E0008BB18 /* RAMCharacterStatusListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52786A323AE467E0008BB18 /* RAMCharacterStatusListViewModel.swift */; };
+		A52786A623AE482A0008BB18 /* RickAndMortiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52786A523AE482A0008BB18 /* RickAndMortiView.swift */; };
+		A52786A823AE4AA00008BB18 /* Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52786A723AE4AA00008BB18 /* Histogram.swift */; };
+		A52786AA23AE4B680008BB18 /* HistogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52786A923AE4B680008BB18 /* HistogramView.swift */; };
 		A5AB84E423AE11BA00165643 /* GitHubRepoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AB84E323AE11BA00165643 /* GitHubRepoListViewModel.swift */; };
 		A5AB84EA23AE1E4100165643 /* GithubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AB84E923AE1E4100165643 /* GithubView.swift */; };
 		A5CA895023AD1E960087E30F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA894F23AD1E960087E30F /* AppDelegate.swift */; };
@@ -54,6 +66,18 @@
 		A527865423AE33AB0008BB18 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		A527865523AE33AB0008BB18 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		A527866923AE38E50008BB18 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		A527868023AE43CF0008BB18 /* StatusAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusAPI.swift; sourceTree = "<group>"; };
+		A527868523AE43CF0008BB18 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A527868623AE43CF0008BB18 /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		A527868723AE43CF0008BB18 /* PersonList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonList.swift; sourceTree = "<group>"; };
+		A527868823AE43CF0008BB18 /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		A527868923AE43CF0008BB18 /* OriginLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginLocation.swift; sourceTree = "<group>"; };
+		A527869F23AE45B50008BB18 /* AlamofireImplementationsForRAM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementationsForRAM.swift; sourceTree = "<group>"; };
+		A52786A123AE45CB0008BB18 /* RAMAPIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAPIs.swift; sourceTree = "<group>"; };
+		A52786A323AE467E0008BB18 /* RAMCharacterStatusListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMCharacterStatusListViewModel.swift; sourceTree = "<group>"; };
+		A52786A523AE482A0008BB18 /* RickAndMortiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortiView.swift; sourceTree = "<group>"; };
+		A52786A723AE4AA00008BB18 /* Histogram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Histogram.swift; sourceTree = "<group>"; };
+		A52786A923AE4B680008BB18 /* HistogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramView.swift; sourceTree = "<group>"; };
 		A5AB84E323AE11BA00165643 /* GitHubRepoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepoListViewModel.swift; sourceTree = "<group>"; };
 		A5AB84E923AE1E4100165643 /* GithubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubView.swift; sourceTree = "<group>"; };
 		A5CA894C23AD1E950087E30F /* HW3_Arch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3_Arch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,10 +143,42 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		A527867C23AE43CF0008BB18 /* RickAndMorti */ = {
+			isa = PBXGroup;
+			children = (
+				A527868423AE43CF0008BB18 /* Models */,
+				A527867F23AE43CF0008BB18 /* APIs */,
+				A527869F23AE45B50008BB18 /* AlamofireImplementationsForRAM.swift */,
+				A52786A123AE45CB0008BB18 /* RAMAPIs.swift */,
+			);
+			path = RickAndMorti;
+			sourceTree = SOURCE_ROOT;
+		};
+		A527867F23AE43CF0008BB18 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				A527868023AE43CF0008BB18 /* StatusAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		A527868423AE43CF0008BB18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A527868523AE43CF0008BB18 /* Person.swift */,
+				A527868623AE43CF0008BB18 /* Info.swift */,
+				A527868723AE43CF0008BB18 /* PersonList.swift */,
+				A527868823AE43CF0008BB18 /* Status.swift */,
+				A527868923AE43CF0008BB18 /* OriginLocation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A5AB84E223AE112100165643 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				A5AB84E323AE11BA00165643 /* GitHubRepoListViewModel.swift */,
+				A52786A323AE467E0008BB18 /* RAMCharacterStatusListViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -154,13 +210,17 @@
 		A5CA894E23AD1E950087E30F /* HW3_Arch_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A527867C23AE43CF0008BB18 /* RickAndMorti */,
 				A527864323AE33AB0008BB18 /* GithubAPI */,
 				A5AB84E223AE112100165643 /* Models */,
 				A5CA894F23AD1E960087E30F /* AppDelegate.swift */,
 				A5CA895123AD1E980087E30F /* SceneDelegate.swift */,
 				A5CA895323AD1E980087E30F /* RootView.swift */,
 				A5AB84E923AE1E4100165643 /* GithubView.swift */,
+				A52786A523AE482A0008BB18 /* RickAndMortiView.swift */,
+				A52786A923AE4B680008BB18 /* HistogramView.swift */,
 				A527866923AE38E50008BB18 /* ActivityIndicatorView.swift */,
+				A52786A723AE4AA00008BB18 /* Histogram.swift */,
 				A5CA895A23AD1E9B0087E30F /* LaunchScreen.storyboard */,
 				A5CA895D23AD1E9B0087E30F /* Info.plist */,
 				A5CA895523AD1E9B0087E30F /* Assets.xcassets */,
@@ -256,19 +316,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52786A223AE45CB0008BB18 /* RAMAPIs.swift in Sources */,
 				A527865A23AE33AB0008BB18 /* JSONEncodableEncoding.swift in Sources */,
+				A52786A023AE45B50008BB18 /* AlamofireImplementationsForRAM.swift in Sources */,
 				A527866223AE33AB0008BB18 /* Extensions.swift in Sources */,
+				A527869623AE43CF0008BB18 /* Info.swift in Sources */,
 				A527865623AE33AB0008BB18 /* APIHelper.swift in Sources */,
 				A527865F23AE33AB0008BB18 /* Repository.swift in Sources */,
 				A527865723AE33AB0008BB18 /* AlamofireImplementations.swift in Sources */,
 				A527865823AE33AB0008BB18 /* SearchAPI.swift in Sources */,
+				A527869523AE43CF0008BB18 /* Person.swift in Sources */,
+				A527869823AE43CF0008BB18 /* Status.swift in Sources */,
+				A52786AA23AE4B680008BB18 /* HistogramView.swift in Sources */,
+				A527869723AE43CF0008BB18 /* PersonList.swift in Sources */,
+				A52786A823AE4AA00008BB18 /* Histogram.swift in Sources */,
 				A5AB84EA23AE1E4100165643 /* GithubView.swift in Sources */,
 				A527866123AE33AB0008BB18 /* RepositoryList.swift in Sources */,
 				A527866023AE33AB0008BB18 /* ErrorModel.swift in Sources */,
 				A527866523AE33AB0008BB18 /* Configuration.swift in Sources */,
 				A527865B23AE33AB0008BB18 /* APIs.swift in Sources */,
 				A527865E23AE33AB0008BB18 /* User.swift in Sources */,
+				A527869123AE43CF0008BB18 /* StatusAPI.swift in Sources */,
+				A52786A623AE482A0008BB18 /* RickAndMortiView.swift in Sources */,
 				A5CA895023AD1E960087E30F /* AppDelegate.swift in Sources */,
+				A52786A423AE467E0008BB18 /* RAMCharacterStatusListViewModel.swift in Sources */,
 				A527865C23AE33AB0008BB18 /* GithubAPI.swift in Sources */,
 				A5AB84E423AE11BA00165643 /* GitHubRepoListViewModel.swift in Sources */,
 				A5CA895223AD1E980087E30F /* SceneDelegate.swift in Sources */,
@@ -276,6 +347,7 @@
 				A527866A23AE38E50008BB18 /* ActivityIndicatorView.swift in Sources */,
 				A527866323AE33AB0008BB18 /* JSONEncodingHelper.swift in Sources */,
 				A527865923AE33AB0008BB18 /* CodableHelper.swift in Sources */,
+				A527869923AE43CF0008BB18 /* OriginLocation.swift in Sources */,
 				A5CA895423AD1E980087E30F /* RootView.swift in Sources */,
 				A527866423AE33AB0008BB18 /* Models.swift in Sources */,
 			);

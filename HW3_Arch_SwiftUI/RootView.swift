@@ -23,10 +23,10 @@ struct RootView: View {
             
             if pickerSelection == 0 {
                 GithubView().environmentObject(GitHubRepoListViewModel())
+            } else if pickerSelection == 1 {
+                RickAndMortiView().environmentObject(RAMCharacterStatusListViewModel())
             } else {
-                List {
-                    Text("")
-                }
+                HistogramView()
             }
         }
     }

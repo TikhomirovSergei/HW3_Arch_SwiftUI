@@ -31,20 +31,20 @@ final class GitHubRepoListViewModel: ObservableObject {
         let group = DispatchGroup()
         
         for i in 0..<repositoriesList.count {
-                group.enter()
+            group.enter()
+            
+            SearchAPI.searchReposGet(q: self.repositoriesList[i], order: .asc) { repositoryList, error in
                 
-                SearchAPI.searchReposGet(q: self.repositoriesList[i], order: .asc) { repositoryList, error in
-                    
-                    group.leave()
-                    guard error == nil else { return }
-                    
-                    switch i {
-                    case 0: self.swiftRepoCount = repositoryList?.totalCount ?? 0
-                    case 1: self.objCRepoCount = repositoryList?.totalCount ?? 0
-                    case 2: self.kotlinRepoCount = repositoryList?.totalCount ?? 0
-                    default: break
-                    }
+                group.leave()
+                guard error == nil else { return }
+                
+                switch i {
+                case 0: self.swiftRepoCount = repositoryList?.totalCount ?? 0
+                case 1: self.objCRepoCount = repositoryList?.totalCount ?? 0
+                case 2: self.kotlinRepoCount = repositoryList?.totalCount ?? 0
+                default: break
                 }
+            }
         }
         
         group.notify(queue: .main) {
