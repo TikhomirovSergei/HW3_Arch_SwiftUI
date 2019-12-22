@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A527865623AE33AB0008BB18 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864423AE33AB0008BB18 /* APIHelper.swift */; };
-		A527865723AE33AB0008BB18 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864523AE33AB0008BB18 /* AlamofireImplementations.swift */; };
-		A527865823AE33AB0008BB18 /* SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864723AE33AB0008BB18 /* SearchAPI.swift */; };
-		A527865923AE33AB0008BB18 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864823AE33AB0008BB18 /* CodableHelper.swift */; };
-		A527865A23AE33AB0008BB18 /* JSONEncodableEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864923AE33AB0008BB18 /* JSONEncodableEncoding.swift */; };
-		A527865B23AE33AB0008BB18 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864A23AE33AB0008BB18 /* APIs.swift */; };
-		A527865C23AE33AB0008BB18 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864B23AE33AB0008BB18 /* GithubAPI.swift */; };
-		A527865D23AE33AB0008BB18 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864D23AE33AB0008BB18 /* Order.swift */; };
-		A527865E23AE33AB0008BB18 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864E23AE33AB0008BB18 /* User.swift */; };
-		A527865F23AE33AB0008BB18 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527864F23AE33AB0008BB18 /* Repository.swift */; };
-		A527866023AE33AB0008BB18 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527865023AE33AB0008BB18 /* ErrorModel.swift */; };
-		A527866123AE33AB0008BB18 /* RepositoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527865123AE33AB0008BB18 /* RepositoryList.swift */; };
-		A527866223AE33AB0008BB18 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527865223AE33AB0008BB18 /* Extensions.swift */; };
-		A527866323AE33AB0008BB18 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527865323AE33AB0008BB18 /* JSONEncodingHelper.swift */; };
-		A527866423AE33AB0008BB18 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527865423AE33AB0008BB18 /* Models.swift */; };
-		A527866523AE33AB0008BB18 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527865523AE33AB0008BB18 /* Configuration.swift */; };
+		A520935023AFA8D4004BCD1C /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520933E23AFA8D4004BCD1C /* APIHelper.swift */; };
+		A520935123AFA8D4004BCD1C /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520933F23AFA8D4004BCD1C /* AlamofireImplementations.swift */; };
+		A520935223AFA8D4004BCD1C /* SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520934123AFA8D4004BCD1C /* SearchAPI.swift */; };
+		A520935323AFA8D4004BCD1C /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520934223AFA8D4004BCD1C /* CodableHelper.swift */; };
+		A520935423AFA8D4004BCD1C /* JSONEncodableEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520934323AFA8D4004BCD1C /* JSONEncodableEncoding.swift */; };
+		A520935523AFA8D4004BCD1C /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520934423AFA8D4004BCD1C /* APIs.swift */; };
+		A520935623AFA8D4004BCD1C /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520934523AFA8D4004BCD1C /* GithubAPI.swift */; };
+		A520935723AFA8D4004BCD1C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520934723AFA8D4004BCD1C /* Order.swift */; };
+		A520935823AFA8D4004BCD1C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520934823AFA8D4004BCD1C /* User.swift */; };
+		A520935923AFA8D4004BCD1C /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520934923AFA8D4004BCD1C /* Repository.swift */; };
+		A520935A23AFA8D4004BCD1C /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520934A23AFA8D4004BCD1C /* ErrorModel.swift */; };
+		A520935B23AFA8D4004BCD1C /* RepositoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520934B23AFA8D4004BCD1C /* RepositoryList.swift */; };
+		A520935C23AFA8D4004BCD1C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520934C23AFA8D4004BCD1C /* Extensions.swift */; };
+		A520935D23AFA8D4004BCD1C /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520934D23AFA8D4004BCD1C /* JSONEncodingHelper.swift */; };
+		A520935E23AFA8D4004BCD1C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520934E23AFA8D4004BCD1C /* Models.swift */; };
+		A520935F23AFA8D4004BCD1C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520934F23AFA8D4004BCD1C /* Configuration.swift */; };
+		A520936123AFAAE9004BCD1C /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520936023AFAAE9004BCD1C /* OverlayView.swift */; };
+		A520936323AFAB2D004BCD1C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520936223AFAB2D004BCD1C /* AppState.swift */; };
 		A527866823AE36240008BB18 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = A527866723AE36240008BB18 /* SwiftUICharts */; };
 		A527866A23AE38E50008BB18 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527866923AE38E50008BB18 /* ActivityIndicatorView.swift */; };
 		A527869123AE43CF0008BB18 /* StatusAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527868023AE43CF0008BB18 /* StatusAPI.swift */; };
@@ -49,22 +51,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A527864423AE33AB0008BB18 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
-		A527864523AE33AB0008BB18 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
-		A527864723AE33AB0008BB18 /* SearchAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAPI.swift; sourceTree = "<group>"; };
-		A527864823AE33AB0008BB18 /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
-		A527864923AE33AB0008BB18 /* JSONEncodableEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodableEncoding.swift; sourceTree = "<group>"; };
-		A527864A23AE33AB0008BB18 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
-		A527864B23AE33AB0008BB18 /* GithubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
-		A527864D23AE33AB0008BB18 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
-		A527864E23AE33AB0008BB18 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		A527864F23AE33AB0008BB18 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
-		A527865023AE33AB0008BB18 /* ErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
-		A527865123AE33AB0008BB18 /* RepositoryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryList.swift; sourceTree = "<group>"; };
-		A527865223AE33AB0008BB18 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		A527865323AE33AB0008BB18 /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodingHelper.swift; sourceTree = "<group>"; };
-		A527865423AE33AB0008BB18 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		A527865523AE33AB0008BB18 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		A520933E23AFA8D4004BCD1C /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		A520933F23AFA8D4004BCD1C /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
+		A520934123AFA8D4004BCD1C /* SearchAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAPI.swift; sourceTree = "<group>"; };
+		A520934223AFA8D4004BCD1C /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
+		A520934323AFA8D4004BCD1C /* JSONEncodableEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodableEncoding.swift; sourceTree = "<group>"; };
+		A520934423AFA8D4004BCD1C /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		A520934523AFA8D4004BCD1C /* GithubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
+		A520934723AFA8D4004BCD1C /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		A520934823AFA8D4004BCD1C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A520934923AFA8D4004BCD1C /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		A520934A23AFA8D4004BCD1C /* ErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		A520934B23AFA8D4004BCD1C /* RepositoryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryList.swift; sourceTree = "<group>"; };
+		A520934C23AFA8D4004BCD1C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A520934D23AFA8D4004BCD1C /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodingHelper.swift; sourceTree = "<group>"; };
+		A520934E23AFA8D4004BCD1C /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A520934F23AFA8D4004BCD1C /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		A520936023AFAAE9004BCD1C /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		A520936223AFAB2D004BCD1C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		A527866923AE38E50008BB18 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		A527868023AE43CF0008BB18 /* StatusAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusAPI.swift; sourceTree = "<group>"; };
 		A527868523AE43CF0008BB18 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
@@ -103,42 +107,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A527864323AE33AB0008BB18 /* GithubAPI */ = {
+		A520933D23AFA8D4004BCD1C /* GithubAPI */ = {
 			isa = PBXGroup;
 			children = (
-				A527864423AE33AB0008BB18 /* APIHelper.swift */,
-				A527864523AE33AB0008BB18 /* AlamofireImplementations.swift */,
-				A527864623AE33AB0008BB18 /* APIs */,
-				A527864823AE33AB0008BB18 /* CodableHelper.swift */,
-				A527864923AE33AB0008BB18 /* JSONEncodableEncoding.swift */,
-				A527864A23AE33AB0008BB18 /* APIs.swift */,
-				A527864B23AE33AB0008BB18 /* GithubAPI.swift */,
-				A527864C23AE33AB0008BB18 /* Models */,
-				A527865223AE33AB0008BB18 /* Extensions.swift */,
-				A527865323AE33AB0008BB18 /* JSONEncodingHelper.swift */,
-				A527865423AE33AB0008BB18 /* Models.swift */,
-				A527865523AE33AB0008BB18 /* Configuration.swift */,
+				A520933E23AFA8D4004BCD1C /* APIHelper.swift */,
+				A520933F23AFA8D4004BCD1C /* AlamofireImplementations.swift */,
+				A520934023AFA8D4004BCD1C /* APIs */,
+				A520934223AFA8D4004BCD1C /* CodableHelper.swift */,
+				A520934323AFA8D4004BCD1C /* JSONEncodableEncoding.swift */,
+				A520934423AFA8D4004BCD1C /* APIs.swift */,
+				A520934523AFA8D4004BCD1C /* GithubAPI.swift */,
+				A520934623AFA8D4004BCD1C /* Models */,
+				A520934C23AFA8D4004BCD1C /* Extensions.swift */,
+				A520934D23AFA8D4004BCD1C /* JSONEncodingHelper.swift */,
+				A520934E23AFA8D4004BCD1C /* Models.swift */,
+				A520934F23AFA8D4004BCD1C /* Configuration.swift */,
 			);
 			name = GithubAPI;
 			path = GithubAPI/Sources/GithubAPI;
 			sourceTree = SOURCE_ROOT;
 		};
-		A527864623AE33AB0008BB18 /* APIs */ = {
+		A520934023AFA8D4004BCD1C /* APIs */ = {
 			isa = PBXGroup;
 			children = (
-				A527864723AE33AB0008BB18 /* SearchAPI.swift */,
+				A520934123AFA8D4004BCD1C /* SearchAPI.swift */,
 			);
 			path = APIs;
 			sourceTree = "<group>";
 		};
-		A527864C23AE33AB0008BB18 /* Models */ = {
+		A520934623AFA8D4004BCD1C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A527864D23AE33AB0008BB18 /* Order.swift */,
-				A527864E23AE33AB0008BB18 /* User.swift */,
-				A527864F23AE33AB0008BB18 /* Repository.swift */,
-				A527865023AE33AB0008BB18 /* ErrorModel.swift */,
-				A527865123AE33AB0008BB18 /* RepositoryList.swift */,
+				A520934723AFA8D4004BCD1C /* Order.swift */,
+				A520934823AFA8D4004BCD1C /* User.swift */,
+				A520934923AFA8D4004BCD1C /* Repository.swift */,
+				A520934A23AFA8D4004BCD1C /* ErrorModel.swift */,
+				A520934B23AFA8D4004BCD1C /* RepositoryList.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -210,8 +214,8 @@
 		A5CA894E23AD1E950087E30F /* HW3_Arch_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A520933D23AFA8D4004BCD1C /* GithubAPI */,
 				A527867C23AE43CF0008BB18 /* RickAndMorti */,
-				A527864323AE33AB0008BB18 /* GithubAPI */,
 				A5AB84E223AE112100165643 /* Models */,
 				A5CA894F23AD1E960087E30F /* AppDelegate.swift */,
 				A5CA895123AD1E980087E30F /* SceneDelegate.swift */,
@@ -221,6 +225,8 @@
 				A52786A923AE4B680008BB18 /* HistogramView.swift */,
 				A527866923AE38E50008BB18 /* ActivityIndicatorView.swift */,
 				A52786A723AE4AA00008BB18 /* Histogram.swift */,
+				A520936023AFAAE9004BCD1C /* OverlayView.swift */,
+				A520936223AFAB2D004BCD1C /* AppState.swift */,
 				A5CA895A23AD1E9B0087E30F /* LaunchScreen.storyboard */,
 				A5CA895D23AD1E9B0087E30F /* Info.plist */,
 				A5CA895523AD1E9B0087E30F /* Assets.xcassets */,
@@ -316,40 +322,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A520935023AFA8D4004BCD1C /* APIHelper.swift in Sources */,
 				A52786A223AE45CB0008BB18 /* RAMAPIs.swift in Sources */,
-				A527865A23AE33AB0008BB18 /* JSONEncodableEncoding.swift in Sources */,
 				A52786A023AE45B50008BB18 /* AlamofireImplementationsForRAM.swift in Sources */,
-				A527866223AE33AB0008BB18 /* Extensions.swift in Sources */,
+				A520936323AFAB2D004BCD1C /* AppState.swift in Sources */,
 				A527869623AE43CF0008BB18 /* Info.swift in Sources */,
-				A527865623AE33AB0008BB18 /* APIHelper.swift in Sources */,
-				A527865F23AE33AB0008BB18 /* Repository.swift in Sources */,
-				A527865723AE33AB0008BB18 /* AlamofireImplementations.swift in Sources */,
-				A527865823AE33AB0008BB18 /* SearchAPI.swift in Sources */,
+				A520935A23AFA8D4004BCD1C /* ErrorModel.swift in Sources */,
 				A527869523AE43CF0008BB18 /* Person.swift in Sources */,
+				A520935223AFA8D4004BCD1C /* SearchAPI.swift in Sources */,
+				A520935723AFA8D4004BCD1C /* Order.swift in Sources */,
 				A527869823AE43CF0008BB18 /* Status.swift in Sources */,
+				A520936123AFAAE9004BCD1C /* OverlayView.swift in Sources */,
 				A52786AA23AE4B680008BB18 /* HistogramView.swift in Sources */,
 				A527869723AE43CF0008BB18 /* PersonList.swift in Sources */,
 				A52786A823AE4AA00008BB18 /* Histogram.swift in Sources */,
+				A520935823AFA8D4004BCD1C /* User.swift in Sources */,
 				A5AB84EA23AE1E4100165643 /* GithubView.swift in Sources */,
-				A527866123AE33AB0008BB18 /* RepositoryList.swift in Sources */,
-				A527866023AE33AB0008BB18 /* ErrorModel.swift in Sources */,
-				A527866523AE33AB0008BB18 /* Configuration.swift in Sources */,
-				A527865B23AE33AB0008BB18 /* APIs.swift in Sources */,
-				A527865E23AE33AB0008BB18 /* User.swift in Sources */,
 				A527869123AE43CF0008BB18 /* StatusAPI.swift in Sources */,
 				A52786A623AE482A0008BB18 /* RickAndMortiView.swift in Sources */,
 				A5CA895023AD1E960087E30F /* AppDelegate.swift in Sources */,
 				A52786A423AE467E0008BB18 /* RAMCharacterStatusListViewModel.swift in Sources */,
-				A527865C23AE33AB0008BB18 /* GithubAPI.swift in Sources */,
 				A5AB84E423AE11BA00165643 /* GitHubRepoListViewModel.swift in Sources */,
+				A520935523AFA8D4004BCD1C /* APIs.swift in Sources */,
 				A5CA895223AD1E980087E30F /* SceneDelegate.swift in Sources */,
-				A527865D23AE33AB0008BB18 /* Order.swift in Sources */,
 				A527866A23AE38E50008BB18 /* ActivityIndicatorView.swift in Sources */,
-				A527866323AE33AB0008BB18 /* JSONEncodingHelper.swift in Sources */,
-				A527865923AE33AB0008BB18 /* CodableHelper.swift in Sources */,
+				A520935423AFA8D4004BCD1C /* JSONEncodableEncoding.swift in Sources */,
 				A527869923AE43CF0008BB18 /* OriginLocation.swift in Sources */,
 				A5CA895423AD1E980087E30F /* RootView.swift in Sources */,
-				A527866423AE33AB0008BB18 /* Models.swift in Sources */,
+				A520935D23AFA8D4004BCD1C /* JSONEncodingHelper.swift in Sources */,
+				A520935123AFA8D4004BCD1C /* AlamofireImplementations.swift in Sources */,
+				A520935F23AFA8D4004BCD1C /* Configuration.swift in Sources */,
+				A520935B23AFA8D4004BCD1C /* RepositoryList.swift in Sources */,
+				A520935C23AFA8D4004BCD1C /* Extensions.swift in Sources */,
+				A520935E23AFA8D4004BCD1C /* Models.swift in Sources */,
+				A520935323AFA8D4004BCD1C /* CodableHelper.swift in Sources */,
+				A520935623AFA8D4004BCD1C /* GithubAPI.swift in Sources */,
+				A520935923AFA8D4004BCD1C /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

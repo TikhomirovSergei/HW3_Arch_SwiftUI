@@ -28,6 +28,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             window.rootViewController = UIHostingController(rootView: rootView)
             self.window = window
             window.makeKeyAndVisible()
+            
+            AppState.shared.overlayWindow = UIWindow(windowScene: windowScene)
+            let vc = UIHostingController(rootView: OverlayView())
+            vc.view.backgroundColor = UIColor.init(displayP3Red: 80, green: 80, blue: 80, alpha: 0.95)
+            AppState.shared.overlayWindow?.rootViewController = vc
+            AppState.shared.overlayWindow?.windowLevel = UIWindow.Level.alert + 1
         }
     }
 

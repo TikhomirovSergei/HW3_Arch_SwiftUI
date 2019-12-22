@@ -19,6 +19,12 @@ struct HistogramView: View {
                 Spacer()
             }
             Spacer()
+            Button(action: {
+                AppState.shared.toggleOverlay()
+            }) {
+                Text("Toggle overlay window")
+            }
+            Spacer()
         }
     }
 }
