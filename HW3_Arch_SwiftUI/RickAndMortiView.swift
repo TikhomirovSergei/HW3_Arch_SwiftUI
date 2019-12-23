@@ -29,6 +29,7 @@ struct RickAndMortiView: View {
                             ],
                             title: "status of characters"
                         )
+                        .transition(.move(edge: .leading))
                         Text("alive: \(ramCharacterStatusListVM.aliveCount)")
                         Text("dead: \(ramCharacterStatusListVM.deadCount)")
                         Text("unknown: \(ramCharacterStatusListVM.unknownCount)")

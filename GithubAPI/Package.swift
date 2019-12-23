@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .target(
             name: "GithubAPI",
-            dependencies: []),
+            dependencies: ["Alamofire"]),
         .testTarget(
             name: "GithubAPITests",
             dependencies: ["GithubAPI"]),
