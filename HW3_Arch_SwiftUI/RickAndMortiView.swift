@@ -13,8 +13,16 @@ struct RickAndMortiView: View {
     
     @EnvironmentObject var ramCharacterStatusListVM: RAMCharacterStatusListViewModel
     
+    @State var isShowView: Bool = true
+    
     var body: some View {
         VStack(alignment: .center) {
+            if ramCharacterStatusListVM.loading == false {
+                Toggle(isOn: $isShowView.animation()) {
+                    Text("show BarChartView")
+                }
+                .padding()
+            }
             Spacer()
             HStack() {
                 Spacer()
@@ -22,22 +30,29 @@ struct RickAndMortiView: View {
                     ActivityIndicatorView()
                 } else {
                     VStack() {
-                        BarChartView(data: [
-                            ramCharacterStatusListVM.aliveCount,
-                            ramCharacterStatusListVM.deadCount,
-                            ramCharacterStatusListVM.unknownCount
-                            ],
-                            title: "status of characters"
-                        )
-                        .transition(.move(edge: .leading))
-                        Text("alive: \(ramCharacterStatusListVM.aliveCount)")
-                        Text("dead: \(ramCharacterStatusListVM.deadCount)")
-                        Text("unknown: \(ramCharacterStatusListVM.unknownCount)")
+                        if isShowView {
+                            BarChartView(data: [
+                                ramCharacterStatusListVM.aliveCount,
+                                ramCharacterStatusListVM.deadCount,
+                                ramCharacterStatusListVM.unknownCount
+                                ],
+                                title: "status of characters"
+                            )
+                            .transition(.scale)
+                            .animation(.easeInOut(duration: 1))
+                        } else {
+                            Text("alive: \(ramCharacterStatusListVM.aliveCount)")
+                            Text("dead: \(ramCharacterStatusListVM.deadCount)")
+                            Text("unknown: \(ramCharacterStatusListVM.unknownCount)")
+                        }
+                    } // VStack
+                        .onTapGesture {
+                            self.isShowView.toggle()
                     }
                 }
                 Spacer()
-            }
+            } // HStack
             Spacer()
-        }
+        } // VStack
     }
 }

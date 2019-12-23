@@ -19,6 +19,7 @@
 		A5AB84EA23AE1E4100165643 /* GithubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AB84E923AE1E4100165643 /* GithubView.swift */; };
 		A5B816E723B0A0D6004C8D7B /* RickAndMortiAPI in Frameworks */ = {isa = PBXBuildFile; productRef = A5B816E623B0A0D6004C8D7B /* RickAndMortiAPI */; };
 		A5B816EA23B0A1F6004C8D7B /* GithubAPI in Frameworks */ = {isa = PBXBuildFile; productRef = A5B816E923B0A1F6004C8D7B /* GithubAPI */; };
+		A5B816F023B0BD10004C8D7B /* AnyTransition + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B816EF23B0BD10004C8D7B /* AnyTransition + Extension.swift */; };
 		A5CA895023AD1E960087E30F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA894F23AD1E960087E30F /* AppDelegate.swift */; };
 		A5CA895223AD1E980087E30F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA895123AD1E980087E30F /* SceneDelegate.swift */; };
 		A5CA895423AD1E980087E30F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA895323AD1E980087E30F /* RootView.swift */; };
@@ -38,6 +39,7 @@
 		A52786A923AE4B680008BB18 /* HistogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramView.swift; sourceTree = "<group>"; };
 		A5AB84E323AE11BA00165643 /* GitHubRepoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepoListViewModel.swift; sourceTree = "<group>"; };
 		A5AB84E923AE1E4100165643 /* GithubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubView.swift; sourceTree = "<group>"; };
+		A5B816EF23B0BD10004C8D7B /* AnyTransition + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyTransition + Extension.swift"; sourceTree = "<group>"; };
 		A5CA894C23AD1E950087E30F /* HW3_Arch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3_Arch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CA894F23AD1E960087E30F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5CA895123AD1E980087E30F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A5B816EE23B0BCFF004C8D7B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A5B816EF23B0BD10004C8D7B /* AnyTransition + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		A5CA894323AD1E940087E30F = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		A5CA894E23AD1E950087E30F /* HW3_Arch_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A5B816EE23B0BCFF004C8D7B /* Extensions */,
 				A5AB84E223AE112100165643 /* Models */,
 				A5CA894F23AD1E960087E30F /* AppDelegate.swift */,
 				A5CA895123AD1E980087E30F /* SceneDelegate.swift */,
@@ -214,6 +225,7 @@
 				A52786AA23AE4B680008BB18 /* HistogramView.swift in Sources */,
 				A52786A823AE4AA00008BB18 /* Histogram.swift in Sources */,
 				A5AB84EA23AE1E4100165643 /* GithubView.swift in Sources */,
+				A5B816F023B0BD10004C8D7B /* AnyTransition + Extension.swift in Sources */,
 				A52786A623AE482A0008BB18 /* RickAndMortiView.swift in Sources */,
 				A5CA895023AD1E960087E30F /* AppDelegate.swift in Sources */,
 				A52786A423AE467E0008BB18 /* RAMCharacterStatusListViewModel.swift in Sources */,
