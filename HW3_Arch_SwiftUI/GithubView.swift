@@ -13,8 +13,16 @@ struct GithubView: View {
     
     @EnvironmentObject var githubRepoListVM: GitHubRepoListViewModel
     
+    @State var isShowView: Bool = true
+    
     var body: some View {
         VStack(alignment: .center) {
+            if githubRepoListVM.loading == false {
+                Toggle(isOn: $isShowView.animation()) {
+                    Text("show PieChartView")
+                }
+                .padding()
+            }
             Spacer()
             HStack() {
                 Spacer()
@@ -22,21 +30,28 @@ struct GithubView: View {
                     ActivityIndicatorView()
                 } else {
                     VStack() {
-                        PieChartView(data: [
-                            githubRepoListVM.swiftRepoCount,
-                            githubRepoListVM.objCRepoCount,
-                            githubRepoListVM.kotlinRepoCount
-                            ],
+                        if isShowView {
+                            PieChartView(data: [
+                                githubRepoListVM.swiftRepoCount,
+                                githubRepoListVM.objCRepoCount,
+                                githubRepoListVM.kotlinRepoCount
+                                ],
                             title: "Number of repositories"
-                        )
-                        Text("swift: \(githubRepoListVM.swiftRepoCount)")
-                        Text("objC: \(githubRepoListVM.objCRepoCount)")
-                        Text("kotlin: \(githubRepoListVM.kotlinRepoCount)")
+                            )
+                            .transition(.customMove(insertionMove: .trailing, removalMove: .leading))
+                        } else {
+                            Text("swift: \(githubRepoListVM.swiftRepoCount)")
+                            Text("objC: \(githubRepoListVM.objCRepoCount)")
+                            Text("kotlin: \(githubRepoListVM.kotlinRepoCount)")
+                        }
+                    } // VStack
+                    .onTapGesture {
+                        self.isShowView.toggle()
                     }
                 }
                 Spacer()
-            }
+            } // HStack
             Spacer()
-        }
+        } // VStack
     }
 }

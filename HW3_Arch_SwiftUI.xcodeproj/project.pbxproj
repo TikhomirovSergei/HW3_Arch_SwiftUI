@@ -41,6 +41,7 @@
 		A5B816DE23B09EBC004C8D7B /* OriginLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B816CE23B09EBC004C8D7B /* OriginLocation.swift */; };
 		A5B816E223B09EBC004C8D7B /* RAMAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B816D223B09EBC004C8D7B /* RAMAPIs.swift */; };
 		A5B816E323B09EBC004C8D7B /* AlamofireImplementationsForRAM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B816D323B09EBC004C8D7B /* AlamofireImplementationsForRAM.swift */; };
+		A5B816ED23B0B72B004C8D7B /* AnyTransition + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B816EC23B0B72B004C8D7B /* AnyTransition + Extension.swift */; };
 		A5CA895023AD1E960087E30F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA894F23AD1E960087E30F /* AppDelegate.swift */; };
 		A5CA895223AD1E980087E30F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA895123AD1E980087E30F /* SceneDelegate.swift */; };
 		A5CA895423AD1E980087E30F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA895323AD1E980087E30F /* RootView.swift */; };
@@ -84,6 +85,7 @@
 		A5B816CE23B09EBC004C8D7B /* OriginLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginLocation.swift; sourceTree = "<group>"; };
 		A5B816D223B09EBC004C8D7B /* RAMAPIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAPIs.swift; sourceTree = "<group>"; };
 		A5B816D323B09EBC004C8D7B /* AlamofireImplementationsForRAM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementationsForRAM.swift; sourceTree = "<group>"; };
+		A5B816EC23B0B72B004C8D7B /* AnyTransition + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyTransition + Extension.swift"; sourceTree = "<group>"; };
 		A5CA894C23AD1E950087E30F /* HW3_Arch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3_Arch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CA894F23AD1E960087E30F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5CA895123AD1E980087E30F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -194,6 +196,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		A5B816EB23B0B70B004C8D7B /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				A5B816EC23B0B72B004C8D7B /* AnyTransition + Extension.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
 		A5CA894323AD1E940087E30F = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +224,7 @@
 		A5CA894E23AD1E950087E30F /* HW3_Arch_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A5B816EB23B0B70B004C8D7B /* Extentions */,
 				A5B816C223B09EBB004C8D7B /* RickAndMorti */,
 				A520933D23AFA8D4004BCD1C /* GithubAPI */,
 				A5AB84E223AE112100165643 /* Models */,
@@ -335,6 +346,7 @@
 				A520935823AFA8D4004BCD1C /* User.swift in Sources */,
 				A5B816DC23B09EBC004C8D7B /* PersonList.swift in Sources */,
 				A5AB84EA23AE1E4100165643 /* GithubView.swift in Sources */,
+				A5B816ED23B0B72B004C8D7B /* AnyTransition + Extension.swift in Sources */,
 				A52786A623AE482A0008BB18 /* RickAndMortiView.swift in Sources */,
 				A5CA895023AD1E960087E30F /* AppDelegate.swift in Sources */,
 				A5B816DB23B09EBC004C8D7B /* Info.swift in Sources */,
