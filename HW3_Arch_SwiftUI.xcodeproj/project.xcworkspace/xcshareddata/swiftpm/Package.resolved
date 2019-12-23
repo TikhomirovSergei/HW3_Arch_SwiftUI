@@ -18,6 +18,24 @@
           "revision": "20fb782a3ec0f490e7f52b92f8911386a5b13ce9",
           "version": "1.4.2"
         }
+      },
+      {
+        "package": "GithubAPI",
+        "repositoryURL": "https://github.com/TikhomirovSergei/GithubAPI",
+        "state": {
+          "branch": null,
+          "revision": "3a8272684cb58bf5a14a9c60a93949391a425a1b",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "RickAndMortiAPI",
+        "repositoryURL": "https://github.com/TikhomirovSergei/RickAndMortiAPI",
+        "state": {
+          "branch": null,
+          "revision": "c0b6a54db61b0c7231723264caa71cf897eadddf",
+          "version": "1.0.0"
+        }
       }
     ]
   },

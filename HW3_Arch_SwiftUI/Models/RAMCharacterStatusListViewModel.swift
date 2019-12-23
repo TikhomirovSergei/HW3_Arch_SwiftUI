@@ -7,7 +7,7 @@
 //
 
 import SwiftUI
-//import RickAndMortiAPI
+import RickAndMortiAPI
 
 final class RAMCharacterStatusListViewModel: ObservableObject {
     
